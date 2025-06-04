@@ -1,0 +1,13 @@
+{
+  "name": "ninjismo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "tw": "tailwindcss -i ./pages/assets/main.css -o ./pages/assets/app.css --watch",
+    "dev": "bun run dev-server.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.1.8",
+    "@tailwindcss/cli": "4.1.8"
+  }
+}
